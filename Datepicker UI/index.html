@@ -3,148 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Datepicker UI</title>
+    <title>Datepicker</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="container">
-      <article class="datepicker">
-        <div class="date">
-          <input type="text" class="input-date" value="dd / mm / yyyy" readonly/>
-          <button class="date-btn"><img src="icon/calendar.svg" alt="" class="icon"></button>
+    <div class="datepicker">
+      <div class="date">
+        <input type="text" class="input-date" value="dd / mm / yyyy" readonly />
+        <button class="btn">
+          <img src="icon/calendar.svg" alt="calendar icon" class="icon" />
+        </button>
+      </div>
+      <div class="picker">
+        <div class="month-wrapper">
+          <h3 class="month">December 2025</h3>
+          <button class="btn">
+            <img src="icon/left.svg" alt="left arrow" class="icon" />
+          </button>
+          <button class="btn">
+            <img src="icon/right.svg" alt="right arrow" class="icon" />
+          </button>
         </div>
-        <div class="picker">
-          <div class="picker-slider">
-            <div class="month-wrapper">
-              <img src="icon/left.svg" alt="" class="icon" />
-              <h3>December 2025</h3>
-              <img src="icon/right.svg" alt="" class="icon" />
-            </div>
-            <div class="week-days">
-              <div class="picker__weekday">
-                <p>S</p>
-              </div>
-              <div class="picker__weekday">
-                <p>M</p>
-              </div>
-              <div class="picker__weekday">
-                <p>T</p>
-              </div>
-              <div class="picker__weekday">
-                <p>W</p>
-              </div>
-              <div class="picker__weekday">
-                <p>T</p>
-              </div>
-              <div class="picker__weekday">
-                <p>F</p>
-              </div>
-              <div class="picker__weekday">
-                <p>S</p>
-              </div>
-            </div>
-          </div>
-          <div class="items-wrapper">
-            <div class="picker__day"></div>
-            <div class="picker__day"></div>
-            <div class="picker__day"></div>
-            <div class="picker__day"></div>
-            <div class="picker__day">
-              <p>1</p>
-            </div>
-            <div class="picker__day">
-              <p>2</p>
-            </div>
-            <div class="picker__day">
-              <p>3</p>
-            </div>
-            <div class="picker__day">
-              <p>4</p>
-            </div>
-            <div class="picker__day">
-              <p>5</p>
-            </div>
-            <div class="picker__day">
-              <p>6</p>
-            </div>
-            <div class="picker__day">
-              <p>7</p>
-            </div>
-            <div class="picker__day">
-              <p>8</p>
-            </div>
-            <div class="picker__day">
-              <p>9</p>
-            </div>
-            <div class="picker__day">
-              <p>10</p>
-            </div>
-            <div class="picker__day">
-              <p>11</p>
-            </div>
-            <div class="picker__day">
-              <p>12</p>
-            </div>
-            <div class="picker__day">
-              <p>13</p>
-            </div>
-            <div class="picker__day">
-              <p>14</p>
-            </div>
-            <div class="picker__day">
-              <p>15</p>
-            </div>
-            <div class="picker__day">
-              <p>16</p>
-            </div>
-            <div class="picker__day">
-              <p>17</p>
-            </div>
-            <div class="picker__day">
-              <p>18</p>
-            </div>
-            <div class="picker__day">
-              <p>19</p>
-            </div>
-            <div class="picker__day">
-              <p>20</p>
-            </div>
-            <div class="picker__day">
-              <p>21</p>
-            </div>
-            <div class="picker__day">
-              <p>22</p>
-            </div>
-            <div class="picker__day">
-              <p>23</p>
-            </div>
-            <div class="picker__day">
-              <p>24</p>
-            </div>
-            <div class="picker__day">
-              <p>25</p>
-            </div>
-            <div class="picker__day">
-              <p>26</p>
-            </div>
-            <div class="picker__day">
-              <p>27</p>
-            </div>
-            <div class="picker__day">
-              <p>28</p>
-            </div>
-            <div class="picker__day">
-              <p>29</p>
-            </div>
-            <div class="picker__day">
-              <p>30</p>
-            </div>
-            <div class="picker__day">
-              <p>31</p>
-            </div>
-          </div>
+        <div class="week-days">
+          <span class="picker__weekday">Sun</span>
+          <span class="picker__weekday">Mon</span>
+          <span class="picker__weekday">Tue</span>
+          <span class="picker__weekday">Wed</span>
+          <span class="picker__weekday">Thu</span>
+          <span class="picker__weekday">Fri</span>
+          <span class="picker__weekday">Sat</span>
         </div>
-      </article>
-    </main>
+        <div class="items-wrapper">
+          <span class="picker__day">27</span>
+          <span class="picker__day">28</span>
+          <span class="picker__day">29</span>
+          <span class="picker__day">30</span>
+          <span class="picker__day">1</span>
+          <span class="picker__day">2</span>
+          <span class="picker__day">3</span>
+          <span class="picker__day">4</span>
+          <span class="picker__day">5</span>
+          <span class="picker__day">6</span>
+          <span class="picker__day">7</span>
+          <span class="picker__day">8</span>
+          <span class="picker__day">9</span>
+          <span class="picker__day">10</span>
+          <span class="picker__day">11</span>
+          <span class="picker__day">12</span>
+          <span class="picker__day">13</span>
+          <span class="picker__day">14</span>
+          <span class="picker__day">15</span>
+          <span class="picker__day">16</span>
+          <span class="picker__day">17</span>
+          <span class="picker__day">18</span>
+          <span class="picker__day">19</span>
+          <span class="picker__day">20</span>
+          <span class="picker__day">21</span>
+          <span class="picker__day">22</span>
+          <span class="picker__day">23</span>
+          <span class="picker__day">24</span>
+          <span class="picker__day">25</span>
+          <span class="picker__day">26</span>
+          <span class="picker__day">27</span>
+          <span class="picker__day">28</span>
+          <span class="picker__day">29</span>
+          <span class="picker__day">30</span>
+          <span class="picker__day">31</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -39,13 +39,16 @@
     <main>
       <section>
         <form>
-          <label for="">Name:</label>
-          <input type="text" placeholder="Name" required />
-          <label for="">Email:</label>
-          <input type="email" placeholder="example@email.com" required />
-          <label for="">Message:</label>
-          <textarea placeholder="Write your Message" required></textarea>
-          <input type="submit" value="Send" />
+          <fieldset>
+            <legend>Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Name" id="name" required />
+            <label for="email">Email:</label>
+            <input type="email" placeholder="example@email.com" id="email" required />
+            <label for="message">Message:</label>
+            <textarea placeholder="Write your Message" id="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+          </fieldset>
         </form>
       </section>
     </main>
