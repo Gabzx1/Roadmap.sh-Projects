@@ -22,8 +22,6 @@ input:focus {
   outline: none;
 }
 
-
-
 /* ----- DATE ----- */
 .datepicker {
   display: flex;
@@ -34,7 +32,7 @@ input:focus {
 
 .date {
   display: flex;
-  box-shadow: 0 0 10px #0006;
+  box-shadow: 0 0 10px #00000033;
   border-radius: 6px;
   padding: 0.8rem;
   background-color: #fff;
@@ -65,7 +63,7 @@ input:focus {
   background-color: #fff;
   padding: 2.5rem 2rem 1.5rem 2rem;
   border-radius: 6px;
-  box-shadow: 0 0 10px #0006;
+  box-shadow: 0 0 10px #00000033;
   font-size: 1.4rem;
   gap: 1rem;
 }
