@@ -107,7 +107,7 @@ button {
 }
 
 .toggle-psw-btn:active {
-  transform: scale(93%);
+  transform: scale(0.93);
 }
 
 .submit-btn {

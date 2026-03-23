@@ -7,6 +7,8 @@ This component focuses on usability, accessibility (a11y), and clean UI design.
 
 ![Changelog componet](../img/Accesible%20Form%20UI.png)
 
+## usage
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/Gabzx1/Roadmap.sh-Projects.git
