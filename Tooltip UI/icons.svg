@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <!-- HOME -->
+  <symbol id="home" viewBox="0 0 21 20" fill="currentColor">
+    <path
+      d="M16.8 18h-3.15v-4h-6.3v4H4.2V8.813L10.49 2.823l6.31 6.009V18ZM18.9 8.004V8L10.502 0 0 9.992l1.482 1.414.618-.593V20h7.35v-4h2.1v4h7.35v-.003V10.832l.614.584L21 10.002l-2.1-1.998Z" />
+  </symbol>
+
+  <!-- PROJECTS -->
+  <symbol id="projects" viewBox="0 0 32 32" fill="currentColor">
+    <path
+      d="M3 6v8h5.635L12 19.908V27h8v-8h-6.217L10.938 14H11v-3h10v3h8V6h-8v3H11V6H3zm2 2h4v4H5V8zm18 0h4v4h-4V8zM14.418 21H18v4h-4v-3.762z" />
+  </symbol>
+
+  <!-- BLOG -->
+  <symbol id="blog" viewBox="0 0 24 24">
+    <path
+      d="M21.5 12A9.5 9.5 0 1 0 12 21.5h9.5l-2.66-2.92A9.43 9.43 0 0 0 21.5 12Z"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.9"
+      stroke-miterlimit="10"
+    />
+
+    <line x1="14.85" y1="12" x2="16.75" y2="12" stroke="currentColor" stroke-width="1.9" />
+    <line x1="11.05" y1="12" x2="12.95" y2="12" stroke="currentColor" stroke-width="1.9" />
+    <line x1="7.25" y1="12" x2="9.15" y2="12" stroke="currentColor" stroke-width="1.9" />
+  </symbol>
+
+  <!-- SETTINGS -->
+  <symbol id="setting" viewBox="0 -3.5 21 21" fill="currentColor">
+    <path fill-rule="evenodd"
+      d="M10.5 3c0-.353.0756-1 .1932-1H0v2h10.6932c-.1176 0-.1932-.647-.1932-1zM18.7068 2c-.4337-1-1.5876-2-2.9568-2-1.7399 0-3.15 1.343-3.15 3s1.4101 3 3.15 3c1.3692 0 2.5231-1 2.9568-2H21V2h-2.2932zM10.5 11c0 .353-.0756.686-.1932 1H21v-2H10.3068c.1176 0 .1932.647.1932 1zM8.4 11c0 1.657-1.4101 3-3.15 3-1.3692 0-2.5231-1-2.9568-2H0v-2h2.2932c.4337-1 1.5876-2 2.9568-2 1.7399 0 3.15 1.343 3.15 3z" />
+  </symbol>
+
+  <!-- USER -->
+  <symbol id="user" viewBox="0 0 20 20" fill="currentColor">
+    <path
+      d="M10 12c3.785 0 6.958 2.214 7.784 6H2.216C3.042 14.214 6.215 12 10 12zm-4-6c0-2.206 1.794-4 4-4s4 1.794 4 4-1.794 4-4 4-4-1.794-4-4zm7.758 4.673C15.124 9.574 16 7.89 16 6c0-3.314-2.686-6-6-6S4 2.686 4 6c0 1.89.876 3.574 2.242 4.673C2.583 12.048 0 15.445 0 20h20c0-4.555-2.583-7.952-6.242-9.327z" />
+  </symbol>
+</svg>
