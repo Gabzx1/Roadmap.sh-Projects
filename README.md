@@ -11,3 +11,4 @@ This repository contains Frontend and Backend projects following the roadmap.sh 
 * [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 * [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 * [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+* [Testimonials Cards](https://roadmap.sh/projects/testimonial-cards)
