@@ -5,7 +5,7 @@ This component focuses on usability, accessibility (a11y), and clean UI design.
 
 ## Preview
 
-![Changelog componet](../img/Accesible%20Form%20UI.png)
+![Accesible Form UI](../img/Accesible%20Form%20UI.png)
 
 ## usage
 

@@ -6,7 +6,7 @@ This component provides a clean calendar layout suitable for integration into fo
 
 ## Preview
 
-![Changelog componet](../img/Datepicker%20UI.png)
+![Datepicker UI](../img/Datepicker%20UI.png)
 
 ## Usage
 

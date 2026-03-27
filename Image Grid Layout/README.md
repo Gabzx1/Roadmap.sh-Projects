@@ -4,7 +4,7 @@ A dynamic and responsive image gallery built using CSS Grid. This project featur
 
 ## Preview
 
-![Changelog componet](../img/Image%20Grid%20Layout.png)
+![Image Grid Layout](../img/Image%20Grid%20Layout.png)
 
 ## Usage
 

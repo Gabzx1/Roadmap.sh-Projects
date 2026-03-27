@@ -4,7 +4,7 @@ A modern vertical navigation bar with interactive tooltips built using pure HTML
 
 ## Preview
 
-![Changelog componet](../img/Tooltip%20UI.png)
+![Tooltip UI](../img/Tooltip%20UI.png)
 
 ## Usage
 
