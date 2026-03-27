@@ -1,0 +1,154 @@
+/* ----- PORTFOLIO ----- */
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  box-shadow: 0 3px 15px #00000023;
+  max-width: 140rem;
+  background: #ffffff;
+  border-radius: 6px;
+  margin: 0 3rem;
+}
+
+.portfolio__projects,
+.portfolio__work,
+.portfolio__education {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  border-right: 1px solid #c5c5c5;
+  font-size: 1.6rem;
+}
+
+.portfolio__work {
+  padding: 0;
+}
+
+.portfolio__education {
+  border: none;
+}
+
+.portfolio__title {
+  font-size: 2.4rem;
+  font-family: var(--font-main);
+}
+
+.portfolio__project-list {
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+}
+
+.portfolio__project-item {
+  border-bottom: 1px solid #c5c5c5;
+  padding: 1rem 2rem;
+  margin: 0 -2rem;
+  transition: background-color 0.2s ease;
+}
+
+.portfolio__project-item:last-child {
+  border: none;
+}
+
+.portfolio__project-item:hover {
+  background-color: #e5e5e5;
+}
+
+.portfolio__exp,
+.portfolio__opensource {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.portfolio__exp {
+  padding: 2rem;
+}
+
+.portfolio__opensource {
+  border: none;
+}
+
+.portfolio__link {
+  color: #448ccd;
+}
+
+.portfolio__education-list {
+  list-style: none;
+}
+
+.portfolio__education-item::before {
+  content: '- ';
+}
+
+/* ----- REVIEWS ----- */
+.reviews {
+  padding: 2rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.reviews__title {
+  font-size: 2.4rem;
+  font-family: var(--font-main);
+}
+
+.reviews__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 120rem;
+  gap: 5rem;
+}
+
+.reviews__card {
+  padding: 2rem;
+  border-radius: 30px;
+  max-width: 25rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  box-shadow: 0 5px 15px #00000023;
+  background-color: #ffffff;
+}
+
+.reviews__figcaption {
+  opacity: 0.7;
+}
+
+/* ----- MOBILE ----- */
+@media (max-width: 768px) {
+  .hero {
+    height: 30rem;
+  }
+
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__projects {
+    text-align: center;
+  }
+
+  .portfolio__title,
+  .reviews__title,
+  .footer__title {
+    text-align: center;
+  }
+
+  .portfolio__project-item:last-child {
+    border: none;
+    border-bottom: 1px solid #c5c5c5;
+  }
+
+  .portfolio__opensource {
+    border-bottom: 1px solid #c5c5c5;
+    padding: 2rem;
+  }
+}

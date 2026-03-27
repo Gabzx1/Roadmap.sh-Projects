@@ -1,0 +1,113 @@
+/* ----- RESET ----- */
+:root {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* ----- DATEPICKER ----- */
+.datepicker {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+  gap: 0.8rem;
+}
+
+.datepicker__input-wrapper {
+  display: flex;
+  box-shadow: 0 0 10px #00000033;
+  border-radius: 6px;
+  padding: 0.8rem;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.datepicker__input {
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.datepicker__toggle-btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.datepicker__icon {
+  width: 2rem;
+}
+
+.datepicker__calendar {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2.5rem 2rem 1.5rem 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #00000033;
+  font-size: 1.4rem;
+  gap: 1rem;
+}
+
+.datepicker__calendar-header {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.datepicker__month {
+  margin-right: auto;
+  font-size: 1.6rem;
+}
+
+.datepicker__nav-btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.datepicker__weekdays,
+.datepicker__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.8rem 0.5rem;
+  text-align: center;
+}
+
+.datepicker__weekdays {
+  border-bottom: 2px solid #0005;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.datepicker__day {
+  padding: 0.7rem 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.datepicker__day:nth-child(-n + 4) {
+  opacity: 0.5;
+}
+
+.datepicker__day:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <meta name="description" content="My Website" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Basic, HTML, Website" />
+  <link rel="stylesheet" href="src/css/global.css" />
+  <link rel="stylesheet" href="src/css/contact.css" />
+  <link rel="icon" type="image/png" href="src/img/favicon.png" />
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://mywebsite.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Personal Portfolio" />
+  <meta property="og:description" content="My CV" />
+  <meta property="og:image" content="src/img/favicon.png" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="Basic-HTML-Website.com" />
+  <meta property="twitter:url" content="https://mywebsite.com" />
+  <meta name="twitter:title" content="Personal Portfolio" />
+  <meta name="twitter:description" content="My Website" />
+  <meta name="twitter:image" content="src/img/favicon.png" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__nav-wrapper">
+      <nav class="nav" aria-label="Main navigation">
+        <h2 class="nav__logo">Gabzx1</h2>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="articles.html" class="nav__link">Articles</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero hero--contact">
+      <h1 class="hero__title">Contact Us</h1>
+      <p class="hero__subtitle">Please fill in the form below to get in touch with us.</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="form-wrapper">
+      <form class="form">
+        <input type="text" placeholder="First Name" id="Fname" required class="form__input" minlength="2" />
+        <input type="text" placeholder="Last Name" id="Lname" required class="form__input" minlength="2" />
+        <input type="email" placeholder="Email address" id="email" required class="form__input" />
+        <input type="number" placeholder="Phone Number" id="phone" required class="form__input" minlength="14" />
+        <textarea
+          placeholder="Write your Message"
+          id="message"
+          rows="4"
+          required
+          class="form__input form__textarea"
+          maxlength="500"
+        ></textarea>
+        <div class="form__bottom">
+          <div class="form__checkbox-group">
+            <input type="checkbox" class="form__checkbox" required /><span
+              >I've read and agree with <a href="#" class="form__link">Terms of Service</a> and
+              <a href="#" class="form__link">Privacy Policy</a> Submit</span
+            >
+          </div>
+          <button type="submit" class="form__btn">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h3 class="footer__title">© 2026 Gabriel. All rights reserved.</h3>
+  </footer>
+</body>
+</html>
