@@ -13,3 +13,4 @@ A dynamic and responsive image gallery built using CSS Grid. This project featur
 ```bash
 git clone https://github.com/Gabzx1/Roadmap.sh-Projects.git
 ```
+

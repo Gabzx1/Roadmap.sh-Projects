@@ -13,3 +13,4 @@ A modern vertical navigation bar with interactive tooltips built using pure HTML
 ```bash
 git clone https://github.com/Gabzx1/Roadmap.sh-Projects.git
 ```
+

@@ -6,8 +6,10 @@ A single-page CV built with semantic HTML, including skills, education, experien
 
 Open `index.html` in a web browser. No installation or build step is required.
 
-## Project reference
+1. Clone the repository:
 
-[Single-Page CV on roadmap.sh](https://roadmap.sh/projects/single-page-cv)
+```bash
+git clone https://github.com/Gabzx1/Roadmap.sh-Projects.git
+```
 
 [Back to projects](../../README.md)
